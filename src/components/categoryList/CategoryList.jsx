@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Menu.module.css";
+import styles from "./categoryList.module.css";
 
-const Featured = () => {
+const CategoryList = () => {
   return <div className={styles.container}>CategoryList</div>;
 };
 
