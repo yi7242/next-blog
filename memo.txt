@@ -9,3 +9,5 @@ ctrl dで同じ語句をまとめて選択
 
 useContextについて詳しく覚えたい
 position: absoluteの親要素はposition: relativeにする
+ctrl enterで改行
+ctrl k, ctrl wで全タブ閉じる

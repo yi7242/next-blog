@@ -4,6 +4,7 @@
 
 .title {
     font-size: 96px;
+    font-weight: 300;
 }
 
 .post {
@@ -21,4 +22,24 @@
 
 .textContainer {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    object-fit: cover;
+}
+
+.postDesc {
+    font: 20px;
+    font-weight: 300;
+    color: var(--softTextColor);
+}
+
+.button {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 5px;
+    width: max-content;
 }
