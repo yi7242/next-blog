@@ -1,2 +1,8 @@
 https://www.youtube.com/watch?app=desktop&v=DpYE5zPDRVQ
 18:37
+
+snippetsで快適に
+emmet色々覚える
+ctrl shift kでその行を消す
+alt ctrl arrowでカーソル増やす
+ctrl dで同じ語句をまとめて選択
