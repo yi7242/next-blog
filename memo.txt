@@ -11,3 +11,4 @@ useContextについて詳しく覚えたい
 position: absoluteの親要素はposition: relativeにする
 ctrl enterで改行
 ctrl k, ctrl wで全タブ閉じる
+ctrl pで指定したファイルを開く
