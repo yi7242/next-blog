@@ -12,3 +12,9 @@ position: absoluteの親要素はposition: relativeにする
 ctrl enterで改行
 ctrl k, ctrl wで全タブ閉じる
 ctrl pで指定したファイルを開く
+
+こういう記法がある
+className={`${styles.category} ${styles.style}`}
+
+flexwrap
+jcc justify content center
