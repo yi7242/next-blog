@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?app=desktop&v=DpYE5zPDRVQ
-56:48
+1:13:00あたりでなんかおかしい
 
 snippetsで快適に
 emmet色々覚える
@@ -18,3 +18,5 @@ className={`${styles.category} ${styles.style}`}
 
 flexwrap
 jcc justify content center
+
+rafc
