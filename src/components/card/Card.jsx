@@ -11,19 +11,21 @@ const Card = () => {
       </div>
       <div className={styles.textContainer}>
         <div className={styles.detail}>
-          <span className={styles.date}>2024.06.24</span>
+          <span className={styles.date}>2024.06.24 - </span>
           <span className={styles.category}>CULTURE</span>
         </div>
         <Link href="/">
           <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
         </Link>
-        <p>
+        <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores,
           natus voluptates. Repudiandae numquam libero sunt. Porro minima
           officiis distinctio adipisci, illum impedit praesentium est officia.
           Veniam fugiat eum aut iusto!
         </p>
-        <Link href="/">Read More</Link>
+        <Link href="/" className={styles.link}>
+          Read More
+        </Link>
       </div>
     </div>
   );

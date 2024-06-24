@@ -25,5 +25,12 @@
 			"className={styles.$1}"
 		],
 		"description": "classname with styles"
+	},
+	"lorem short": {
+		"prefix": "loremshort",
+		"body": [
+			"Lorem ipsum, dolor sit amet consectetur adipisicing elit."
+		],
+		"description": "short lorem"
 	}
 }
