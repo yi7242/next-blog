@@ -44,7 +44,7 @@ export default function Menu() {
             <Image src="/p1.jpeg" alt="" fill className={styles.image} />
           </div>
           <div className={styles.textContainer}>
-            <span className={`${styles.category} ${styles.Food}`}>
+            <span className={`${styles.category} ${styles.food}`}>
               Food
             </span>
             <h3 className={styles.postTitle}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
