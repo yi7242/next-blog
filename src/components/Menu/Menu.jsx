@@ -8,6 +8,16 @@ export default function Menu() {
     <div className={styles.container}>
       <h2 className={styles.subtitle}>{"What's hot"}</h2>
       <h1 className={styles.title}>Most Popular</h1>
+
+      <h2 className={styles.subtitle}>Discover by topic</h2>
+      <h1 className={styles.title}>Categories</h1>
+      <div className={styles.categoryList}>
+        <Link href="/blog?cat=style" className={`${styles.categoryItem} ${styles.style}`}>
+          Style
+        </Link>
+      </div>
+      <h2 className={styles.subtitle}>{"Chosen by the editor"}</h2>
+      <h1 className={styles.title}>Editors Pick</h1>
       <div className={styles.items}>
         <Link href="/" className={styles.item}>
           <div className={styles.imageContainer}>
@@ -69,7 +79,7 @@ export default function Menu() {
             </div>
           </div>
         </Link>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }

@@ -13,7 +13,13 @@
   font-size: 28px;
 }
 
-.items {}
+.items {
+  margin-top: 35px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
 
 .item {
   display: flex;
@@ -57,15 +63,15 @@
   background-color: #7fb881;
 }
 
-.category.travel {
+.category.fashion {
   background-color: #ff7887;
 }
 
-.category.travel {
+.category.coding {
   background-color: #775aec;
 }
 
-.category.travel {
+.category.style {
   background-color: #789cff;
 }
 
