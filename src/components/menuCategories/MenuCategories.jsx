@@ -2,7 +2,7 @@ import Link from "next/link"
 
 import React from 'react'
 import styles from './menuCategories.module.css'
-export const MenuCategories = () => {
+const MenuCategories = () => {
     return (
         <div className={styles.categoryList}>
             <Link href="/blog?cat=style" className={`${styles.categoryItem} ${styles.style}`}>
@@ -26,3 +26,4 @@ export const MenuCategories = () => {
         </div>
     )
 }
+export default MenuCategories
